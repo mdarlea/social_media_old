@@ -1,0 +1,374 @@
+INFO  2019-02-16 08:25:44,238 89249ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 08:25:44,293 89304ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 08:25:44,295 89306ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 08:25:44,296 89307ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 08:25:44,297 89308ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 08:25:45,681 90691ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 02:00:00, end = 02/19/2019 03:00:00
+INFO  2019-02-16 08:25:45,683 90693ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 08:25:45,685 90696ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 08:25:45,687 90697ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 08:25:45,688 90698ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 08:25:45,689 90699ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 08:25:45,690 90700ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 08:25:45,692 90702ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 08:25:45,693 90703ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 08:25:45,694 90704ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 08:25:45,695 90706ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 08:25:45,698 90709ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 08:26:00,317 105328ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 08:26:00,318 105329ms EventAppService        LogInfo            - TimeRange StartTime = 02/23/2019 05:00:00
+INFO  2019-02-16 08:26:00,319 105330ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 08:26:00,319 105330ms EventAppService        LogInfo            - Local time StartTime = 02/23/2019 00:00:00
+INFO  2019-02-16 08:26:00,321 105331ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 08:26:01,336 106347ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 08:26:01,337 106348ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 08:26:05,133 110144ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 08:26:05,136 110147ms EventAppService        LogInfo            - TimeRange StartTime = 02/22/2019 05:00:00
+INFO  2019-02-16 08:26:05,138 110149ms EventAppService        LogInfo            - TimeRange EndTime = 02/23/2019 04:59:59
+INFO  2019-02-16 08:26:05,139 110150ms EventAppService        LogInfo            - Local time StartTime = 02/22/2019 00:00:00
+INFO  2019-02-16 08:26:05,140 110151ms EventAppService        LogInfo            - Local time EndTime = 02/22/2019 23:59:59
+INFO  2019-02-16 08:26:06,047 111058ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 08:26:06,049 111060ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 08:26:06,052 111063ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 08:26:06,053 111064ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 08:34:17,328 77295ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 08:34:17,374 77341ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 08:34:17,374 77341ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 08:34:17,375 77342ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 08:34:17,375 77342ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 08:34:18,293 78260ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 02:00:00, end = 02/19/2019 03:00:00
+INFO  2019-02-16 08:34:18,298 78264ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 08:34:18,300 78267ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 08:34:18,302 78269ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 08:34:18,305 78272ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 08:34:18,307 78274ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 08:34:18,311 78277ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 08:34:18,314 78280ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 08:34:18,316 78282ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 08:34:18,318 78284ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 08:34:18,320 78286ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 08:34:18,323 78289ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 08:37:47,280 287246ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 08:37:47,282 287248ms EventAppService        LogInfo            - TimeRange StartTime = 02/23/2019 05:00:00
+INFO  2019-02-16 08:37:47,283 287249ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 08:37:47,284 287250ms EventAppService        LogInfo            - Local time StartTime = 02/23/2019 00:00:00
+INFO  2019-02-16 08:37:47,284 287250ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 08:37:48,713 288680ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 08:37:48,716 288683ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 08:37:52,605 292571ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 08:37:52,606 292572ms EventAppService        LogInfo            - TimeRange StartTime = 02/22/2019 05:00:00
+INFO  2019-02-16 08:37:52,608 292574ms EventAppService        LogInfo            - TimeRange EndTime = 02/23/2019 04:59:59
+INFO  2019-02-16 08:37:52,609 292575ms EventAppService        LogInfo            - Local time StartTime = 02/22/2019 00:00:00
+INFO  2019-02-16 08:37:52,610 292576ms EventAppService        LogInfo            - Local time EndTime = 02/22/2019 23:59:59
+INFO  2019-02-16 08:37:53,525 293492ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 08:37:53,527 293493ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 08:37:53,529 293495ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 08:37:53,532 293498ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:02:44,054 1784020ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:02:44,057 1784023ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 09:02:44,058 1784024ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 09:02:44,059 1784025ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:02:44,060 1784027ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:02:44,980 1784946ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 02:00:00, end = 02/19/2019 03:00:00
+INFO  2019-02-16 09:02:44,982 1784948ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:02:44,983 1784949ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:02:44,984 1784950ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:02:44,986 1784952ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:02:44,987 1784953ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:02:44,988 1784954ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:02:44,989 1784956ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:02:44,991 1784957ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:02:44,992 1784958ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:02:44,993 1784959ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:02:44,994 1784960ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:08:30,407 88620ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:08:30,442 88654ms EventAppService        LogInfo            - TimeRange StartTime = 02/10/2019 05:00:00
+INFO  2019-02-16 09:08:30,443 88655ms EventAppService        LogInfo            - TimeRange EndTime = 02/17/2019 04:59:59
+INFO  2019-02-16 09:08:30,443 88655ms EventAppService        LogInfo            - Local time StartTime = 02/10/2019 00:00:00
+INFO  2019-02-16 09:08:30,444 88656ms EventAppService        LogInfo            - Local time EndTime = 02/16/2019 23:59:59
+INFO  2019-02-16 09:08:33,435 91647ms EventAppService        LogInfo            - Event id = 394, subject = John Doe, start = 02/16/2019 12:00:00, end = 02/16/2019 13:00:00
+INFO  2019-02-16 09:08:33,437 91649ms EventAppService        LogInfo            - Event id = 288, subject = Michelle Darlea, start = 02/13/2019 19:00:00, end = 02/13/2019 20:00:00
+INFO  2019-02-16 09:08:33,437 91650ms EventAppService        LogInfo            - Event id = 295, subject = Michelle Darlea, start = 02/14/2019 19:00:00, end = 02/14/2019 20:00:00
+INFO  2019-02-16 09:08:33,438 91650ms EventAppService        LogInfo            - Event id = 296, subject = Test, start = 02/13/2019 21:00:00, end = 02/13/2019 23:00:00
+INFO  2019-02-16 09:08:33,438 91650ms EventAppService        LogInfo            - Event id = 299, subject = swaksoft, start = 02/14/2019 17:00:00, end = 02/14/2019 19:00:00
+INFO  2019-02-16 09:08:33,439 91651ms EventAppService        LogInfo            - Event id = 307, subject = test address, start = 02/16/2019 19:00:00, end = 02/16/2019 21:00:00
+INFO  2019-02-16 09:08:33,439 91651ms EventAppService        LogInfo            - Event id = 313, subject = 14th appointment, start = 02/16/2019 09:00:00, end = 02/16/2019 11:00:00
+INFO  2019-02-16 09:08:33,440 91652ms EventAppService        LogInfo            - Event id = 319, subject = 20th appointment, start = 02/14/2019 08:00:00, end = 02/14/2019 09:00:00
+INFO  2019-02-16 09:08:33,440 91652ms EventAppService        LogInfo            - Event id = 320, subject = 21st appointment, start = 02/14/2019 09:00:00, end = 02/14/2019 10:00:00
+INFO  2019-02-16 09:08:33,441 91653ms EventAppService        LogInfo            - Event id = 321, subject = 22nd appointment, start = 02/14/2019 10:00:00, end = 02/14/2019 11:00:00
+INFO  2019-02-16 09:08:33,442 91654ms EventAppService        LogInfo            - Event id = 322, subject = 23rd appointment, start = 02/14/2019 11:00:00, end = 02/14/2019 12:00:00
+INFO  2019-02-16 09:08:33,442 91654ms EventAppService        LogInfo            - Event id = 323, subject = 24th appointment, start = 02/14/2019 12:00:00, end = 02/14/2019 13:00:00
+INFO  2019-02-16 09:08:33,443 91655ms EventAppService        LogInfo            - Event id = 324, subject = 25th appointment, start = 02/14/2019 13:00:00, end = 02/14/2019 14:00:00
+INFO  2019-02-16 09:08:33,443 91655ms EventAppService        LogInfo            - Event id = 325, subject = 26th appointment, start = 02/14/2019 14:00:00, end = 02/14/2019 15:00:00
+INFO  2019-02-16 09:08:33,446 91659ms EventAppService        LogInfo            - Event id = 331, subject = Test 1 by Laura Palmer, start = 02/16/2019 21:00:00, end = 02/16/2019 23:00:00
+INFO  2019-02-16 09:08:33,447 91659ms EventAppService        LogInfo            - Event id = 332, subject = Test 2 by Laura Palmer, start = 02/13/2019 20:00:00, end = 02/13/2019 21:00:00
+INFO  2019-02-16 09:08:33,448 91660ms EventAppService        LogInfo            - Event id = 336, subject = Test 4, start = 02/16/2019 17:00:00, end = 02/16/2019 19:00:00
+INFO  2019-02-16 09:08:33,448 91660ms EventAppService        LogInfo            - Event id = 386, subject = Laura Palmer test 1, start = 02/16/2019 11:00:00, end = 02/16/2019 12:00:00
+INFO  2019-02-16 09:08:33,449 91661ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:09:15,620 133833ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:09:15,629 133842ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 09:09:15,632 133845ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 09:09:15,633 133846ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:09:15,634 133847ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:09:16,849 135062ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 02:00:00, end = 02/19/2019 03:00:00
+INFO  2019-02-16 09:09:16,850 135062ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:09:16,850 135062ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:09:16,851 135063ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:09:16,851 135063ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:09:16,851 135063ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:09:16,852 135064ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:09:16,852 135064ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:09:16,852 135064ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:09:16,853 135065ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:09:16,853 135065ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:09:16,854 135066ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:12:56,721 354934ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:12:56,733 354946ms EventAppService        LogInfo            - TimeRange StartTime = 02/10/2019 05:00:00
+INFO  2019-02-16 09:12:56,735 354948ms EventAppService        LogInfo            - TimeRange EndTime = 02/17/2019 04:59:59
+INFO  2019-02-16 09:12:56,739 354952ms EventAppService        LogInfo            - Local time StartTime = 02/10/2019 00:00:00
+INFO  2019-02-16 09:12:56,740 354953ms EventAppService        LogInfo            - Local time EndTime = 02/16/2019 23:59:59
+INFO  2019-02-16 09:12:57,828 356040ms EventAppService        LogInfo            - Event id = 394, subject = John Doe, start = 02/16/2019 12:00:00, end = 02/16/2019 13:00:00
+INFO  2019-02-16 09:12:57,830 356042ms EventAppService        LogInfo            - Event id = 288, subject = Michelle Darlea, start = 02/13/2019 19:00:00, end = 02/13/2019 20:00:00
+INFO  2019-02-16 09:12:57,831 356043ms EventAppService        LogInfo            - Event id = 295, subject = Michelle Darlea, start = 02/14/2019 19:00:00, end = 02/14/2019 20:00:00
+INFO  2019-02-16 09:12:57,833 356046ms EventAppService        LogInfo            - Event id = 296, subject = Test, start = 02/13/2019 21:00:00, end = 02/13/2019 23:00:00
+INFO  2019-02-16 09:12:57,835 356047ms EventAppService        LogInfo            - Event id = 299, subject = swaksoft, start = 02/14/2019 17:00:00, end = 02/14/2019 19:00:00
+INFO  2019-02-16 09:12:57,836 356048ms EventAppService        LogInfo            - Event id = 307, subject = test address, start = 02/16/2019 19:00:00, end = 02/16/2019 21:00:00
+INFO  2019-02-16 09:12:57,837 356049ms EventAppService        LogInfo            - Event id = 313, subject = 14th appointment, start = 02/16/2019 09:00:00, end = 02/16/2019 11:00:00
+INFO  2019-02-16 09:12:57,838 356050ms EventAppService        LogInfo            - Event id = 319, subject = 20th appointment, start = 02/14/2019 08:00:00, end = 02/14/2019 09:00:00
+INFO  2019-02-16 09:12:57,839 356051ms EventAppService        LogInfo            - Event id = 320, subject = 21st appointment, start = 02/14/2019 09:00:00, end = 02/14/2019 10:00:00
+INFO  2019-02-16 09:12:57,840 356052ms EventAppService        LogInfo            - Event id = 321, subject = 22nd appointment, start = 02/14/2019 10:00:00, end = 02/14/2019 11:00:00
+INFO  2019-02-16 09:12:57,840 356052ms EventAppService        LogInfo            - Event id = 322, subject = 23rd appointment, start = 02/14/2019 11:00:00, end = 02/14/2019 12:00:00
+INFO  2019-02-16 09:12:57,841 356053ms EventAppService        LogInfo            - Event id = 323, subject = 24th appointment, start = 02/14/2019 12:00:00, end = 02/14/2019 13:00:00
+INFO  2019-02-16 09:12:57,842 356054ms EventAppService        LogInfo            - Event id = 324, subject = 25th appointment, start = 02/14/2019 13:00:00, end = 02/14/2019 14:00:00
+INFO  2019-02-16 09:12:57,842 356055ms EventAppService        LogInfo            - Event id = 325, subject = 26th appointment, start = 02/14/2019 14:00:00, end = 02/14/2019 15:00:00
+INFO  2019-02-16 09:12:57,843 356055ms EventAppService        LogInfo            - Event id = 331, subject = Test 1 by Laura Palmer, start = 02/16/2019 21:00:00, end = 02/16/2019 23:00:00
+INFO  2019-02-16 09:12:57,844 356056ms EventAppService        LogInfo            - Event id = 332, subject = Test 2 by Laura Palmer, start = 02/13/2019 20:00:00, end = 02/13/2019 21:00:00
+INFO  2019-02-16 09:12:57,846 356058ms EventAppService        LogInfo            - Event id = 336, subject = Test 4, start = 02/16/2019 17:00:00, end = 02/16/2019 19:00:00
+INFO  2019-02-16 09:12:57,847 356060ms EventAppService        LogInfo            - Event id = 386, subject = Laura Palmer test 1, start = 02/16/2019 11:00:00, end = 02/16/2019 12:00:00
+INFO  2019-02-16 09:12:57,849 356061ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:15:16,603 494815ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:15:16,604 494816ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 09:15:16,604 494816ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 09:15:16,605 494817ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:15:16,606 494818ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:15:17,703 495916ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 02:00:00, end = 02/19/2019 03:00:00
+INFO  2019-02-16 09:15:17,704 495917ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:15:17,704 495917ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:15:17,705 495918ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:15:17,705 495918ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:15:17,705 495918ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:15:17,706 495919ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:15:17,706 495919ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:15:17,707 495920ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:15:17,707 495920ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:15:17,708 495921ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:15:17,708 495921ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:24:31,110 1049322ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:24:31,119 1049331ms EventAppService        LogInfo            - TimeRange StartTime = 02/10/2019 05:00:00
+INFO  2019-02-16 09:24:31,120 1049332ms EventAppService        LogInfo            - TimeRange EndTime = 02/17/2019 04:59:59
+INFO  2019-02-16 09:24:31,122 1049334ms EventAppService        LogInfo            - Local time StartTime = 02/10/2019 00:00:00
+INFO  2019-02-16 09:24:31,124 1049336ms EventAppService        LogInfo            - Local time EndTime = 02/16/2019 23:59:59
+INFO  2019-02-16 09:24:32,058 1050271ms EventAppService        LogInfo            - Event id = 394, subject = John Doe, start = 02/16/2019 12:00:00, end = 02/16/2019 13:00:00
+INFO  2019-02-16 09:24:32,059 1050272ms EventAppService        LogInfo            - Event id = 288, subject = Michelle Darlea, start = 02/13/2019 19:00:00, end = 02/13/2019 20:00:00
+INFO  2019-02-16 09:24:32,061 1050273ms EventAppService        LogInfo            - Event id = 295, subject = Michelle Darlea, start = 02/14/2019 19:00:00, end = 02/14/2019 20:00:00
+INFO  2019-02-16 09:24:32,061 1050274ms EventAppService        LogInfo            - Event id = 296, subject = Test, start = 02/13/2019 21:00:00, end = 02/13/2019 23:00:00
+INFO  2019-02-16 09:24:32,062 1050275ms EventAppService        LogInfo            - Event id = 299, subject = swaksoft, start = 02/14/2019 17:00:00, end = 02/14/2019 19:00:00
+INFO  2019-02-16 09:24:32,063 1050276ms EventAppService        LogInfo            - Event id = 307, subject = test address, start = 02/16/2019 19:00:00, end = 02/16/2019 21:00:00
+INFO  2019-02-16 09:24:32,064 1050277ms EventAppService        LogInfo            - Event id = 313, subject = 14th appointment, start = 02/16/2019 09:00:00, end = 02/16/2019 11:00:00
+INFO  2019-02-16 09:24:32,065 1050278ms EventAppService        LogInfo            - Event id = 319, subject = 20th appointment, start = 02/14/2019 08:00:00, end = 02/14/2019 09:00:00
+INFO  2019-02-16 09:24:32,066 1050279ms EventAppService        LogInfo            - Event id = 320, subject = 21st appointment, start = 02/14/2019 09:00:00, end = 02/14/2019 10:00:00
+INFO  2019-02-16 09:24:32,067 1050280ms EventAppService        LogInfo            - Event id = 321, subject = 22nd appointment, start = 02/14/2019 10:00:00, end = 02/14/2019 11:00:00
+INFO  2019-02-16 09:24:32,067 1050280ms EventAppService        LogInfo            - Event id = 322, subject = 23rd appointment, start = 02/14/2019 11:00:00, end = 02/14/2019 12:00:00
+INFO  2019-02-16 09:24:32,068 1050281ms EventAppService        LogInfo            - Event id = 323, subject = 24th appointment, start = 02/14/2019 12:00:00, end = 02/14/2019 13:00:00
+INFO  2019-02-16 09:24:32,070 1050282ms EventAppService        LogInfo            - Event id = 324, subject = 25th appointment, start = 02/14/2019 13:00:00, end = 02/14/2019 14:00:00
+INFO  2019-02-16 09:24:32,070 1050283ms EventAppService        LogInfo            - Event id = 325, subject = 26th appointment, start = 02/14/2019 14:00:00, end = 02/14/2019 15:00:00
+INFO  2019-02-16 09:24:32,071 1050284ms EventAppService        LogInfo            - Event id = 331, subject = Test 1 by Laura Palmer, start = 02/16/2019 21:00:00, end = 02/16/2019 23:00:00
+INFO  2019-02-16 09:24:32,072 1050285ms EventAppService        LogInfo            - Event id = 332, subject = Test 2 by Laura Palmer, start = 02/13/2019 20:00:00, end = 02/13/2019 21:00:00
+INFO  2019-02-16 09:24:32,073 1050286ms EventAppService        LogInfo            - Event id = 336, subject = Test 4, start = 02/16/2019 17:00:00, end = 02/16/2019 19:00:00
+INFO  2019-02-16 09:24:32,074 1050287ms EventAppService        LogInfo            - Event id = 386, subject = Laura Palmer test 1, start = 02/16/2019 11:00:00, end = 02/16/2019 12:00:00
+INFO  2019-02-16 09:24:32,074 1050287ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:30:58,988 1437200ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:30:59,004 1437217ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:30:59,004 1437217ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:30:59,005 1437218ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:30:59,006 1437219ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:30:59,980 1438193ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:31:23,409 1461622ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:31:23,421 1461634ms EventAppService        LogInfo            - TimeRange StartTime = 03/24/2019 04:00:00
+INFO  2019-02-16 09:31:23,429 1461641ms EventAppService        LogInfo            - TimeRange EndTime = 04/03/2019 03:59:59
+INFO  2019-02-16 09:31:23,432 1461644ms EventAppService        LogInfo            - Local time StartTime = 03/24/2019 00:00:00
+INFO  2019-02-16 09:31:23,434 1461646ms EventAppService        LogInfo            - Local time EndTime = 04/02/2019 23:59:59
+INFO  2019-02-16 09:31:24,317 1462530ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:32:12,806 1511019ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:32:13,890 1512103ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:32:14,792 1513005ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:32:19,804 1518016ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:32:19,805 1518018ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:32:20,773 1518986ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:32:58,325 1556538ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:32:58,335 1556547ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:32:58,339 1556551ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:32:58,342 1556554ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:32:58,345 1556557ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:32:59,276 1557488ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:33:25,739 1583951ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:33:25,741 1583953ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:33:25,743 1583955ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:33:25,752 1583964ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:33:25,754 1583966ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:33:26,442 1584655ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:34:10,525 1628737ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:34:10,526 1628738ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:34:10,529 1628741ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:34:10,534 1628746ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:34:10,536 1628748ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:34:11,468 1629681ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:34:49,354 1667567ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:34:49,355 1667568ms EventAppService        LogInfo            - TimeRange StartTime = 03/24/2019 04:00:00
+INFO  2019-02-16 09:34:49,355 1667568ms EventAppService        LogInfo            - TimeRange EndTime = 04/03/2019 03:59:59
+INFO  2019-02-16 09:34:49,356 1667569ms EventAppService        LogInfo            - Local time StartTime = 03/24/2019 00:00:00
+INFO  2019-02-16 09:34:49,356 1667569ms EventAppService        LogInfo            - Local time EndTime = 04/02/2019 23:59:59
+INFO  2019-02-16 09:34:50,278 1668490ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:35:48,338 1726550ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:35:48,340 1726552ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:35:48,341 1726553ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:35:48,342 1726554ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:35:48,343 1726556ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:35:49,259 1727471ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:42:08,883 2107096ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:42:08,922 2107135ms EventAppService        LogInfo            - TimeRange StartTime = 03/17/2019 04:00:00
+INFO  2019-02-16 09:42:08,925 2107138ms EventAppService        LogInfo            - TimeRange EndTime = 03/24/2019 03:59:59
+INFO  2019-02-16 09:42:08,927 2107139ms EventAppService        LogInfo            - Local time StartTime = 03/17/2019 00:00:00
+INFO  2019-02-16 09:42:08,929 2107141ms EventAppService        LogInfo            - Local time EndTime = 03/23/2019 23:59:59
+INFO  2019-02-16 09:42:10,387 2108600ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:44:29,972 2248184ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:44:29,974 2248186ms EventAppService        LogInfo            - TimeRange StartTime = 03/10/2019 05:00:00
+INFO  2019-02-16 09:44:29,975 2248187ms EventAppService        LogInfo            - TimeRange EndTime = 03/17/2019 03:59:59
+INFO  2019-02-16 09:44:29,976 2248188ms EventAppService        LogInfo            - Local time StartTime = 03/10/2019 00:00:00
+INFO  2019-02-16 09:44:29,980 2248193ms EventAppService        LogInfo            - Local time EndTime = 03/16/2019 23:59:59
+INFO  2019-02-16 09:44:31,089 2249301ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:48:00,905 2459118ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:48:00,909 2459122ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 09:48:00,922 2459135ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 09:48:00,930 2459142ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:48:00,933 2459145ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:48:02,063 2460276ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 03:00:00, end = 02/19/2019 04:00:00
+INFO  2019-02-16 09:48:02,064 2460277ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:48:02,065 2460278ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:48:02,066 2460279ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:48:02,067 2460280ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:48:02,067 2460280ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:48:02,068 2460281ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:48:02,069 2460282ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:48:02,070 2460283ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:48:02,071 2460284ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:48:02,072 2460285ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:48:02,073 2460286ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:50:51,204 2629416ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:50:51,209 2629421ms EventAppService        LogInfo            - TimeRange StartTime = 02/24/2019 05:00:00
+INFO  2019-02-16 09:50:51,215 2629427ms EventAppService        LogInfo            - TimeRange EndTime = 03/03/2019 04:59:59
+INFO  2019-02-16 09:50:51,226 2629439ms EventAppService        LogInfo            - Local time StartTime = 02/24/2019 00:00:00
+INFO  2019-02-16 09:50:51,229 2629441ms EventAppService        LogInfo            - Local time EndTime = 03/02/2019 23:59:59
+INFO  2019-02-16 09:50:52,157 2630370ms EventAppService        LogInfo            - Event id = 339, subject = Michelle Darlea, start = 02/25/2019 11:00:00, end = 02/25/2019 12:00:00
+INFO  2019-02-16 09:50:52,159 2630372ms EventAppService        LogInfo            - Event id = 338, subject = Test ensure visible, start = 02/24/2019 11:00:00, end = 02/24/2019 12:00:00
+INFO  2019-02-16 09:50:52,161 2630373ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:51:22,552 2660765ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:51:22,557 2660770ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 05:00:00
+INFO  2019-02-16 09:51:22,563 2660776ms EventAppService        LogInfo            - TimeRange EndTime = 02/24/2019 04:59:59
+INFO  2019-02-16 09:51:22,567 2660780ms EventAppService        LogInfo            - Local time StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:51:22,569 2660782ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:51:23,830 2662043ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 03:00:00, end = 02/19/2019 04:00:00
+INFO  2019-02-16 09:51:23,833 2662046ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:51:23,834 2662047ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:51:23,835 2662048ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:51:23,837 2662050ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:51:23,838 2662051ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:51:23,839 2662052ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:51:23,840 2662053ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:51:23,841 2662054ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:51:23,842 2662055ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:51:23,845 2662057ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:51:23,847 2662059ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:53:58,359 2816571ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:53:58,367 2816580ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:53:58,368 2816581ms EventAppService        LogInfo            - TimeRange EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:53:58,370 2816583ms EventAppService        LogInfo            - Local time StartTime = 02/16/2019 19:00:00
+INFO  2019-02-16 09:53:58,371 2816584ms EventAppService        LogInfo            - Local time EndTime = 02/23/2019 18:59:59
+INFO  2019-02-16 09:53:59,413 2817626ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 03:00:00, end = 02/19/2019 04:00:00
+INFO  2019-02-16 09:53:59,414 2817627ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:53:59,415 2817628ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:53:59,417 2817630ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:53:59,418 2817631ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:53:59,418 2817631ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:53:59,419 2817632ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:53:59,420 2817633ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:53:59,420 2817633ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:53:59,421 2817634ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:53:59,422 2817635ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:53:59,422 2817635ms EventAppService        LogInfo            - Event id = 307, subject = test address, start = 02/16/2019 19:00:00, end = 02/16/2019 21:00:00
+INFO  2019-02-16 09:53:59,423 2817636ms EventAppService        LogInfo            - Event id = 331, subject = Test 1 by Laura Palmer, start = 02/16/2019 21:00:00, end = 02/16/2019 23:00:00
+INFO  2019-02-16 09:53:59,423 2817636ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:59:14,613 71816ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:59:14,687 71890ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:59:14,689 71892ms EventAppService        LogInfo            - TimeRange EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:59:15,752 72955ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 03:00:00, end = 02/19/2019 04:00:00
+INFO  2019-02-16 09:59:15,753 72956ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:59:15,755 72958ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:59:15,757 72959ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:59:15,758 72961ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:59:15,760 72963ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:59:15,762 72965ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:59:15,764 72967ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:59:15,767 72970ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:59:15,769 72972ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:59:15,771 72974ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:59:15,772 72975ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:59:33,454 90656ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:59:33,455 90657ms EventAppService        LogInfo            - TimeRange StartTime = 02/10/2019 00:00:00
+INFO  2019-02-16 09:59:33,457 90659ms EventAppService        LogInfo            - TimeRange EndTime = 02/16/2019 23:59:59
+INFO  2019-02-16 09:59:34,553 91755ms EventAppService        LogInfo            - Event id = 394, subject = John Doe, start = 02/16/2019 12:00:00, end = 02/16/2019 13:00:00
+INFO  2019-02-16 09:59:34,555 91757ms EventAppService        LogInfo            - Event id = 288, subject = Michelle Darlea, start = 02/13/2019 19:00:00, end = 02/13/2019 20:00:00
+INFO  2019-02-16 09:59:34,557 91759ms EventAppService        LogInfo            - Event id = 295, subject = Michelle Darlea, start = 02/14/2019 19:00:00, end = 02/14/2019 20:00:00
+INFO  2019-02-16 09:59:34,559 91761ms EventAppService        LogInfo            - Event id = 296, subject = Test, start = 02/13/2019 21:00:00, end = 02/13/2019 23:00:00
+INFO  2019-02-16 09:59:34,561 91764ms EventAppService        LogInfo            - Event id = 299, subject = swaksoft, start = 02/14/2019 17:00:00, end = 02/14/2019 19:00:00
+INFO  2019-02-16 09:59:34,564 91767ms EventAppService        LogInfo            - Event id = 307, subject = test address, start = 02/16/2019 19:00:00, end = 02/16/2019 21:00:00
+INFO  2019-02-16 09:59:34,567 91770ms EventAppService        LogInfo            - Event id = 313, subject = 14th appointment, start = 02/16/2019 09:00:00, end = 02/16/2019 11:00:00
+INFO  2019-02-16 09:59:34,570 91773ms EventAppService        LogInfo            - Event id = 319, subject = 20th appointment, start = 02/14/2019 08:00:00, end = 02/14/2019 09:00:00
+INFO  2019-02-16 09:59:34,571 91774ms EventAppService        LogInfo            - Event id = 320, subject = 21st appointment, start = 02/14/2019 09:00:00, end = 02/14/2019 10:00:00
+INFO  2019-02-16 09:59:34,573 91776ms EventAppService        LogInfo            - Event id = 321, subject = 22nd appointment, start = 02/14/2019 10:00:00, end = 02/14/2019 11:00:00
+INFO  2019-02-16 09:59:34,574 91777ms EventAppService        LogInfo            - Event id = 322, subject = 23rd appointment, start = 02/14/2019 11:00:00, end = 02/14/2019 12:00:00
+INFO  2019-02-16 09:59:34,576 91779ms EventAppService        LogInfo            - Event id = 323, subject = 24th appointment, start = 02/14/2019 12:00:00, end = 02/14/2019 13:00:00
+INFO  2019-02-16 09:59:34,579 91781ms EventAppService        LogInfo            - Event id = 324, subject = 25th appointment, start = 02/14/2019 13:00:00, end = 02/14/2019 14:00:00
+INFO  2019-02-16 09:59:34,582 91784ms EventAppService        LogInfo            - Event id = 325, subject = 26th appointment, start = 02/14/2019 14:00:00, end = 02/14/2019 15:00:00
+INFO  2019-02-16 09:59:34,585 91787ms EventAppService        LogInfo            - Event id = 331, subject = Test 1 by Laura Palmer, start = 02/16/2019 21:00:00, end = 02/16/2019 23:00:00
+INFO  2019-02-16 09:59:34,588 91790ms EventAppService        LogInfo            - Event id = 332, subject = Test 2 by Laura Palmer, start = 02/13/2019 20:00:00, end = 02/13/2019 21:00:00
+INFO  2019-02-16 09:59:34,590 91792ms EventAppService        LogInfo            - Event id = 336, subject = Test 4, start = 02/16/2019 17:00:00, end = 02/16/2019 19:00:00
+INFO  2019-02-16 09:59:34,592 91794ms EventAppService        LogInfo            - Event id = 386, subject = Laura Palmer test 1, start = 02/16/2019 11:00:00, end = 02/16/2019 12:00:00
+INFO  2019-02-16 09:59:34,593 91796ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 09:59:45,524 102726ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 09:59:45,525 102727ms EventAppService        LogInfo            - TimeRange StartTime = 02/17/2019 00:00:00
+INFO  2019-02-16 09:59:45,527 102729ms EventAppService        LogInfo            - TimeRange EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 09:59:46,542 103744ms EventAppService        LogInfo            - Event id = 383, subject = John Doe, start = 02/19/2019 03:00:00, end = 02/19/2019 04:00:00
+INFO  2019-02-16 09:59:46,542 103745ms EventAppService        LogInfo            - Event id = 395, subject = 02/21 - From 9 PM to 10 PM, start = 02/21/2019 21:00:00, end = 02/21/2019 22:00:00
+INFO  2019-02-16 09:59:46,545 103747ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 09:59:46,547 103749ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 09:59:46,549 103751ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 09:59:46,551 103753ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 09:59:46,552 103754ms EventAppService        LogInfo            - Event id = 300, subject = Test, start = 02/20/2019 01:00:00, end = 02/20/2019 02:00:00
+INFO  2019-02-16 09:59:46,553 103755ms EventAppService        LogInfo            - Event id = 302, subject = addr, start = 02/20/2019 02:00:00, end = 02/20/2019 03:00:00
+INFO  2019-02-16 09:59:46,554 103756ms EventAppService        LogInfo            - Event id = 304, subject = 1, start = 02/17/2019 01:00:00, end = 02/17/2019 02:00:00
+INFO  2019-02-16 09:59:46,555 103757ms EventAppService        LogInfo            - Event id = 305, subject = 2, start = 02/18/2019 01:00:00, end = 02/18/2019 02:00:00
+INFO  2019-02-16 09:59:46,556 103758ms EventAppService        LogInfo            - Event id = 306, subject = 3, start = 02/19/2019 01:00:00, end = 02/19/2019 02:00:00
+INFO  2019-02-16 09:59:46,557 103759ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 10:00:05,407 122609ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 10:00:05,408 122610ms EventAppService        LogInfo            - TimeRange StartTime = 02/23/2019 00:00:00
+INFO  2019-02-16 10:00:05,410 122612ms EventAppService        LogInfo            - TimeRange EndTime = 02/23/2019 23:59:59
+INFO  2019-02-16 10:00:06,310 123512ms EventAppService        LogInfo            - Event id = 401, subject = 02/23 from 9am to 10am, start = 02/23/2019 09:00:00, end = 02/23/2019 10:00:00
+INFO  2019-02-16 10:00:06,312 123514ms EventAppService        LogInfo            - End debugging
+INFO  2019-02-16 10:00:10,648 127851ms EventAppService        LogInfo            - Start debugging
+INFO  2019-02-16 10:00:10,648 127851ms EventAppService        LogInfo            - TimeRange StartTime = 02/22/2019 00:00:00
+INFO  2019-02-16 10:00:10,649 127852ms EventAppService        LogInfo            - TimeRange EndTime = 02/22/2019 23:59:59
+INFO  2019-02-16 10:00:11,523 128726ms EventAppService        LogInfo            - Event id = 396, subject = 02/22 From 7pm to 8 pm, start = 02/22/2019 19:00:00, end = 02/22/2019 20:00:00
+INFO  2019-02-16 10:00:11,525 128728ms EventAppService        LogInfo            - Event id = 397, subject = 02/22 - From 9pm to 10pm, start = 02/22/2019 21:00:00, end = 02/22/2019 22:00:00
+INFO  2019-02-16 10:00:11,528 128730ms EventAppService        LogInfo            - Event id = 398, subject = 02/22 - from 8am to 9am, start = 02/22/2019 08:00:00, end = 02/22/2019 09:00:00
+INFO  2019-02-16 10:00:11,530 128733ms EventAppService        LogInfo            - End debugging

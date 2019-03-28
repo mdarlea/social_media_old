@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Associate Entity Snippet</Title>
+      <Author>Michelle Darlea</Author>
+      <Description>Method that associates an entity to the current entity</Description>
+      <Shortcut>assoc</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Swaksoft.Domain.Seedwork.Aggregates</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>EntityType</ID>
+          <ToolTip>Replace with the associated aggregate root type.</ToolTip>
+          <Default>EntityType</Default>
+        </Literal>
+        <Object>
+          <ID>EntityTypeDescription</ID>
+          <Type>Swaksoft.Domain.Seedwork.Aggregates.Entity</Type>
+          <ToolTip>Replace with the associated aggregate root.</ToolTip>
+          <Default>decription</Default>
+        </Object>
+        <Literal>
+          <ID>Entity</ID>
+          <ToolTip>Replace with the associated aggregate root in your application.</ToolTip>
+          <Default>entity</Default>
+        </Literal>
+       <Literal>
+          <ID>EntityTypeId</ID>
+          <Default>entityTypeId</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[
+         public void SetThe$EntityType$ForThisAddress($EntityType$ $Entity$)
+        {
+            if ($Entity$ == null || $Entity$.IsTransient())
+            {
+                throw new ArgumentException("Cannot associate transient or null $EntityTypeDescription$");
+            }
+            
+            $EntityType$Id = $Entity$.Id;
+            $EntityType$ = $Entity$;
+        }
+        
+        public void SetThe$EntityType$Reference(int $EntityTypeId$)
+        {
+            if ($EntityTypeId$ > 0)
+            {
+                //fix relation
+                $EntityType$Id = $EntityTypeId$;
+
+                $EntityType$ = null;
+            }
+        }
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

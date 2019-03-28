@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65F4F9D5-1A8D-4138-AD63-1E23638141C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Swaksoft.Domain.Communicator</RootNamespace>
+    <AssemblyName>Swaksoft.Domain.Communicator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Azure|AnyCPU'">
+    <OutputPath>bin\Azure\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Swaksoft.Core, Version=1.0.8.0, Culture=neutral, PublicKeyToken=f8a6cbf6057bc61f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Swaksoft.Core.1.0.8.0\lib\net45\Swaksoft.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Swaksoft.Domain.Seedwork, Version=1.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Swaksoft.Domain.Seedwork.1.1.5\lib\net45\Swaksoft.Domain.Seedwork.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MessagingModule\Aggregates\CommunicationLogAgg\AlertSentEvent.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicatorPhoneNumberAgg\ICommunicatorPhoneNumberRepository.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicatorProfileAgg\CommunicatorProfile.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicatorPhoneNumberAgg\CommunicatorPhoneNumber.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicationLogAgg\VerificationCodeSent.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicationLogAgg\CommunicationLogFactory.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicationLogAgg\SmsMessageLog.cs" />
+    <Compile Include="MessagingModule\Contracts\MessageResult.cs" />
+    <Compile Include="MessagingModule\Contracts\XmlActionResult.cs" />
+    <Compile Include="MessagingModule\Providers\ICommunicatorProvider.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicatorProfileAgg\TwilioAuthToken.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicatorProfileAgg\TwilioProfile.cs" />
+    <Compile Include="MessagingModule\Aggregates\MessageOperationAgg\SmsOperation.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicationLogAgg\CommunicationLog.cs" />
+    <Compile Include="MessagingModule\Aggregates\MessageOperationAgg\MessageOperation.cs" />
+    <Compile Include="MessagingModule\Aggregates\CommunicationLogAgg\VoiceCallLog.cs" />
+    <Compile Include="MessagingModule\Events\VerificationCodeSent.cs" />
+    <Compile Include="MessagingModule\Exceptions\CommunicationProviderException.cs" />
+    <Compile Include="MessagingModule\Handlers\VerificationCodeSentHandler.cs" />
+    <Compile Include="MessagingModule\Aggregates\VerificationCodeAgg\VerificationCode.cs" />
+    <Compile Include="MessagingModule\Aggregates\VerificationCodeAgg\VerificationCodeFactory.cs" />
+    <Compile Include="MessagingModule\Aggregates\MessageOperationAgg\Message.cs" />
+    <Compile Include="MessagingModule\Aggregates\MessageOperationAgg\VoiceOperation.cs" />
+    <Compile Include="MessagingModule\Aggregates\MessageOperationAgg\MessageOperationSpecifications.cs" />
+    <Compile Include="MessagingModule\Aggregates\MessageOperationAgg\VoiceOption.cs" />
+    <Compile Include="MessagingModule\Contracts\ProviderActionResult.cs" />
+    <Compile Include="MessagingModule\Providers\CommunicatorProviderFactory.cs" />
+    <Compile Include="MessagingModule\Providers\ICommunicatorProviderFactory.cs" />
+    <Compile Include="MessagingModule\Providers\IEmailProvider.cs" />
+    <Compile Include="MessagingModule\Providers\IProvider.cs" />
+    <Compile Include="MessagingModule\Contracts\ITwimlServiceAgent.cs" />
+    <Compile Include="MessagingModule\Services\IVoiceOperationsService.cs" />
+    <Compile Include="MessagingModule\Services\Providers\Twilio\VoiceOperationsService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

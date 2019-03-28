@@ -1,0 +1,12 @@
+C:\Dev\Social-Media\Communicator\CommunicatorDto\bin\Debug\Swaksoft.Application.Communicator.Dto.dll
+C:\Dev\Social-Media\Communicator\CommunicatorDto\bin\Debug\Swaksoft.Application.Communicator.Dto.pdb
+C:\Dev\Social-Media\Communicator\CommunicatorDto\bin\Debug\Swaksoft.Core.dll
+C:\Dev\Social-Media\Communicator\CommunicatorDto\obj\Debug\Swaksoft.Application.Communicator.Dto.dll
+C:\Dev\Social-Media\Communicator\CommunicatorDto\obj\Debug\Swaksoft.Application.Communicator.Dto.pdb
+C:\Dev\Social-Media\Communicator\CommunicatorDto\obj\Debug\Communicator.Dto.csprojResolveAssemblyReference.cache
+C:\Dev\Social_Media\Communicator\CommunicatorDto\bin\Debug\Swaksoft.Application.Communicator.Dto.dll
+C:\Dev\Social_Media\Communicator\CommunicatorDto\bin\Debug\Swaksoft.Application.Communicator.Dto.pdb
+C:\Dev\Social_Media\Communicator\CommunicatorDto\bin\Debug\Swaksoft.Core.dll
+C:\Dev\Social_Media\Communicator\CommunicatorDto\obj\Debug\Swaksoft.Application.Communicator.Dto.dll
+C:\Dev\Social_Media\Communicator\CommunicatorDto\obj\Debug\Swaksoft.Application.Communicator.Dto.pdb
+C:\Dev\Social_Media\Communicator\CommunicatorDto\obj\Debug\Communicator.Dto.csprojResolveAssemblyReference.cache

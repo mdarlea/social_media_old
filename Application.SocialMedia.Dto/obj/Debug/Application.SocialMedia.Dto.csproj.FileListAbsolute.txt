@@ -1,0 +1,12 @@
+C:\Dev\Social-Media\Application.SocialMedia.Dto\bin\Debug\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social-Media\Application.SocialMedia.Dto\bin\Debug\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social-Media\Application.SocialMedia.Dto\bin\Debug\Swaksoft.Core.dll
+C:\Dev\Social-Media\Application.SocialMedia.Dto\obj\Debug\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social-Media\Application.SocialMedia.Dto\obj\Debug\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social_Media\Application.SocialMedia.Dto\bin\Debug\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social_Media\Application.SocialMedia.Dto\bin\Debug\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social_Media\Application.SocialMedia.Dto\bin\Debug\Swaksoft.Core.dll
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Debug\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Debug\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Debug\Application.SocialMedia.Dto.csproj.CoreCompileInputs.cache
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Debug\Application.SocialMedia.Dto.csproj.CopyComplete

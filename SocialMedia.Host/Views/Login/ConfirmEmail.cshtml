@@ -1,0 +1,44 @@
+﻿@using System.Web.Mvc.Html
+@using System.Configuration
+@model Microsoft.AspNet.Identity.IdentityResult
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Email Confirmation</title>
+    @Styles.Render("~/bundles/bootstrap")
+    @Styles.Render("~/bundles/commoncss")
+</head>
+<body>
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    @if (Model.Errors != null && Model.Errors.Any())
+                    {
+                        <h2 class="text-center">We could not validate your e-mail address</h2>
+                        <div class="alert alert-danger">
+                            @foreach (var error in Model.Errors)
+                            {
+                                <div>@error</div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <h2 class="section-heading">You sucessfully confirmed your e-mail</h2>
+                        <p>Please sign in with your account</p>
+                        
+                        <a href="@ConfigurationManager.AppSettings["environment"]" class=""btn btn-primary btn-xl">Sign In</a>
+                    }
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>

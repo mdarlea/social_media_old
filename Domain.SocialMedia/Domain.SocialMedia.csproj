@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B887C512-ADAC-45A9-86E5-D2A67D0D70F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Swaksoft.Domain.SocialMedia</RootNamespace>
+    <AssemblyName>Swaksoft.Domain.SocialMedia</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f8a6cbf6057bc61f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Core.2.0.0\lib\net461\Swaksoft.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Domain.Seedwork, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Domain.Seedwork.2.0.0\lib\net461\Swaksoft.Domain.Seedwork.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocialModule\Aggregates\AddressAgg\Addreess.cs" />
+    <Compile Include="SocialModule\Aggregates\AddressAgg\AddressFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\AddressAgg\AddressSpecifications.cs" />
+    <Compile Include="SocialModule\Aggregates\AddressAgg\IAddressRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\AddressTypeAgg\AddressType.cs" />
+    <Compile Include="SocialModule\Aggregates\CountryAgg\Country.cs" />
+    <Compile Include="SocialModule\Aggregates\CountryAgg\CountrySpecifications.cs" />
+    <Compile Include="SocialModule\Aggregates\CountryAgg\ICountryRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\EventAgg\Event.cs" />
+    <Compile Include="SocialModule\Aggregates\EventAgg\EventFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\EventAgg\EventSpecifications.cs" />
+    <Compile Include="SocialModule\Aggregates\EventAgg\IEventRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\MessageAgg\IMessageRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\MessageOperationAgg\IMessageOperationRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamFilterAgg\IStreamFilterRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamFilterAgg\StreamFilterFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamFilterAgg\StreamFilterSpecifications.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamingEventAgg\IStreamingEventRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamingEventAgg\StreamingEvent.cs" />
+    <Compile Include="SocialModule\Aggregates\MessageAgg\Message.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamFilterAgg\StreamFilter.cs" />
+    <Compile Include="SocialModule\Aggregates\SentMessageAgg\ISentMessageRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\SentMessageAgg\SentTweetFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\SentMessageAgg\SentMessageFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamedTweetAgg\IStreamedTweetRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamedTweetAgg\StreamedTweetFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamedTweetAgg\StreamedTweetOptions.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamedTweetAgg\StreamedTweetsFilter.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamedTweetAgg\StreamedTweetSpecifications.cs" />
+    <Compile Include="SocialModule\Aggregates\MessageOperationAgg\DirectMessageOperation.cs" />
+    <Compile Include="SocialModule\Aggregates\MessageOperationAgg\StreamFilterMessageOperation.cs" />
+    <Compile Include="SocialModule\Aggregates\UserAgg\ApplicationUser.cs" />
+    <Compile Include="SocialModule\Aggregates\UserAgg\User.cs" />
+    <Compile Include="SocialModule\Aggregates\UserAgg\FacebookUserLogin.cs" />
+    <Compile Include="SocialModule\Aggregates\UserAgg\IUserRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\UserAgg\TwitterUserLogin.cs" />
+    <Compile Include="SocialModule\Aggregates\UserAgg\UserLogin.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\FoursquareUserProfile.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\FoursquareUserProfileFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\IUserProfileRepository.cs" />
+    <Compile Include="SocialModule\Aggregates\StreamedTweetAgg\StreamedTweet.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\TwitterUserProfile.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\TwitterUserProfileFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\SentMessageAgg\SentTweet.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\BlockedUser.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\UserProfile.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\UserProfileFactory.cs" />
+    <Compile Include="SocialModule\Aggregates\SentMessageAgg\SentMessage.cs" />
+    <Compile Include="SocialModule\Aggregates\UserProfileAgg\UserProfileSpecifications.cs" />
+    <Compile Include="SocialModule\Aggregates\MessageOperationAgg\MessageOperation.cs" />
+    <Compile Include="SocialModule\Contracts\ClientSettings.cs" />
+    <Compile Include="SocialModule\Contracts\IOAuthAuthorizationAdapter.cs" />
+    <Compile Include="SocialModule\Contracts\IMessageSenderAdapter.cs" />
+    <Compile Include="SocialModule\Contracts\IStreamingAdapter.cs" />
+    <Compile Include="SocialModule\Contracts\IUserProfileAdapter.cs" />
+    <Compile Include="SocialModule\Contracts\Streaming\IClient.cs" />
+    <Compile Include="SocialModule\Contracts\Streaming\IClientsRegistry.cs" />
+    <Compile Include="SocialModule\Contracts\Streaming\ClientsRegistry.cs" />
+    <Compile Include="SocialModule\Contracts\Streaming\StreamingArgs.cs" />
+    <Compile Include="SocialModule\Contracts\OAuthOptions.cs" />
+    <Compile Include="SocialModule\Contracts\StreamingOptions.cs" />
+    <Compile Include="SocialModule\Contracts\ExternalUserOptions.cs" />
+    <Compile Include="SocialModule\Contracts\TweetOptions.cs" />
+    <Compile Include="SocialModule\Contracts\TweetResult.cs" />
+    <Compile Include="SocialModule\Contracts\UserProfileResult.cs" />
+    <Compile Include="SocialModule\Contracts\AccessTokenResult.cs" />
+    <Compile Include="SocialModule\Events\Location.cs" />
+    <Compile Include="SocialModule\Events\Streaming\ClientBase.cs" />
+    <Compile Include="SocialModule\Events\Streaming\DisplayActivityOnMap.cs" />
+    <Compile Include="SocialModule\Events\Streaming\StreamingEvent.cs" />
+    <Compile Include="SocialModule\Events\Streaming\StreamingEventActionsFactory.cs" />
+    <Compile Include="SocialModule\Events\Streaming\IStreamingEventFactory.cs" />
+    <Compile Include="SocialModule\Events\TweetStreamed.cs" />
+    <Compile Include="SocialModule\Events\MessageSent.cs" />
+    <Compile Include="SocialModule\Events\RealTimeEvent.cs" />
+    <Compile Include="SocialModule\Events\UserProfileCreated.cs" />
+    <Compile Include="SocialModule\Events\UserProfileRemoved.cs" />
+    <Compile Include="SocialModule\Handlers\UserProfileCreatedHandler.cs" />
+    <Compile Include="SocialModule\Services\AddressService.cs" />
+    <Compile Include="SocialModule\Services\IAddressService.cs" />
+    <Compile Include="SocialModule\Services\IMessageSenderService.cs" />
+    <Compile Include="SocialModule\Services\ITweetProcessorService.cs" />
+    <Compile Include="SocialModule\Services\MessageSenderService.cs" />
+    <Compile Include="SocialModule\Services\TweetProcessorService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="AssociateEntity.snippet" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

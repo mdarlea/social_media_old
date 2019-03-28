@@ -1,0 +1,11 @@
+C:\Dev\Social-Media\Application.SocialMedia.Dto\bin\Release\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social-Media\Application.SocialMedia.Dto\bin\Release\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social-Media\Application.SocialMedia.Dto\bin\Release\Swaksoft.Core.dll
+C:\Dev\Social-Media\Application.SocialMedia.Dto\obj\Release\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social-Media\Application.SocialMedia.Dto\obj\Release\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social_Media\Application.SocialMedia.Dto\bin\Release\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social_Media\Application.SocialMedia.Dto\bin\Release\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social_Media\Application.SocialMedia.Dto\bin\Release\Swaksoft.Core.dll
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Release\Swaksoft.Application.SocialMedia.Dto.dll
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Release\Swaksoft.Application.SocialMedia.Dto.pdb
+C:\Dev\Social_Media\Application.SocialMedia.Dto\obj\Release\Application.SocialMedia.Dto.csprojResolveAssemblyReference.cache

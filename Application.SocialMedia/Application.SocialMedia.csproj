@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0988C12A-93CB-4D78-89CA-4F72089C1A86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Swaksoft.Application.SocialMedia</RootNamespace>
+    <AssemblyName>Swaksoft.Application.SocialMedia</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.1.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentValidationNA, Version=1.2.16.24816, Culture=neutral, PublicKeyToken=0950390b87309e14, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidationNA.1.2.16\lib\net40\FluentValidationNA.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Application.Seedwork, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Application.Seedwork.2.0.0\lib\net461\Swaksoft.Application.Seedwork.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f8a6cbf6057bc61f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Core.2.0.0\lib\net461\Swaksoft.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Domain.Seedwork, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Domain.Seedwork.2.0.0\lib\net461\Swaksoft.Domain.Seedwork.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Infrastructure.Crosscutting, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Infrastructure.Crosscutting.2.0.0\lib\net461\Swaksoft.Infrastructure.Crosscutting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic, Version=1.1.14.15853, Culture=neutral, PublicKeyToken=b72be0322d1b32a8, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.Library.1.1.14\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SocialModule\Handlers\DisplayActivityOnMapHandler.cs" />
+    <Compile Include="SocialModule\Handlers\IDisplayActivityOnMapHandler.cs" />
+    <Compile Include="SocialModule\Handlers\TweetSentHandler.cs" />
+    <Compile Include="SocialModule\Handlers\TweetStreamedHandler.cs" />
+    <Compile Include="SocialModule\Providers\IProviderFactory.cs" />
+    <Compile Include="SocialModule\Providers\ProviderActionsFactory.cs" />
+    <Compile Include="SocialModule\Providers\ProviderFactory.cs" />
+    <Compile Include="SocialModule\Services\AddressAppService.cs" />
+    <Compile Include="SocialModule\Services\EventAppService.cs" />
+    <Compile Include="SocialModule\Services\IAddressAppService.cs" />
+    <Compile Include="SocialModule\Services\IEventAppService.cs" />
+    <Compile Include="SocialModule\Services\IOAuthAppService.cs" />
+    <Compile Include="SocialModule\Services\IProviderAppService.cs" />
+    <Compile Include="SocialModule\Services\IRealTimeStreamingFactory.cs" />
+    <Compile Include="SocialModule\Services\IStreamedTweetAppService.cs" />
+    <Compile Include="SocialModule\Services\IRealTimeStreamingAppService.cs" />
+    <Compile Include="SocialModule\Services\IStreamingClientAppService.cs" />
+    <Compile Include="SocialModule\Services\IUserAppService.cs" />
+    <Compile Include="SocialModule\Services\IUserProfileAppService.cs" />
+    <Compile Include="SocialModule\Services\OAuthAppService.cs" />
+    <Compile Include="SocialModule\Services\Providers\FoursquareProviderAppService.cs" />
+    <Compile Include="SocialModule\Services\Providers\ProviderAppServiceBase.cs" />
+    <Compile Include="SocialModule\Services\Providers\TwitterProviderAppService.cs" />
+    <Compile Include="SocialModule\Services\RealTimeStreamingFactory.cs" />
+    <Compile Include="SocialModule\Services\StreamedTweetAppService.cs" />
+    <Compile Include="SocialModule\Services\StreamingClientAppService.cs" />
+    <Compile Include="SocialModule\Services\TwitterStreamingAppService.cs" />
+    <Compile Include="SocialModule\Services\UserAppService.cs" />
+    <Compile Include="SocialModule\Services\UserProfileAppService.cs" />
+    <Compile Include="TypeMapping\Profiles\ApplicationProfile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.SocialMedia\Domain.SocialMedia.csproj">
+      <Project>{b887c512-adac-45a9-86e5-d2a67d0d70f4}</Project>
+      <Name>Domain.SocialMedia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

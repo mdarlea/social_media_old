@@ -1,0 +1,10 @@
+C:\Dev\Social_Media\Client.Console\bin\Release\Client.Console.exe.config
+C:\Dev\Social_Media\Client.Console\bin\Release\Client.Console.exe
+C:\Dev\Social_Media\Client.Console\bin\Release\Client.Console.pdb
+C:\Dev\Social_Media\Client.Console\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Dev\Social_Media\Client.Console\bin\Release\Newtonsoft.Json.dll
+C:\Dev\Social_Media\Client.Console\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Dev\Social_Media\Client.Console\bin\Release\Newtonsoft.Json.xml
+C:\Dev\Social_Media\Client.Console\obj\Release\Client.Console.csprojResolveAssemblyReference.cache
+C:\Dev\Social_Media\Client.Console\obj\Release\Client.Console.exe
+C:\Dev\Social_Media\Client.Console\obj\Release\Client.Console.pdb

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{558973C0-0823-4A67-A631-9BDE6CA2BF59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Swaksoft.Infrastructure.Data.SocialMedia</RootNamespace>
+    <AssemblyName>Swaksoft.Infrastructure.Data.SocialMedia</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentValidationNA, Version=1.2.16.24816, Culture=neutral, PublicKeyToken=0950390b87309e14, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidationNA.1.2.16\lib\net40\FluentValidationNA.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Swaksoft.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f8a6cbf6057bc61f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Core.2.0.0\lib\net461\Swaksoft.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Domain.Seedwork, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Domain.Seedwork.2.0.0\lib\net461\Swaksoft.Domain.Seedwork.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Infrastructure.Crosscutting, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Infrastructure.Crosscutting.2.0.0\lib\net461\Swaksoft.Infrastructure.Crosscutting.dll</HintPath>
+    </Reference>
+    <Reference Include="Swaksoft.Infrastructure.Data.Seedwork, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swaksoft.Infrastructure.Data.Seedwork.2.0.0\lib\net461\Swaksoft.Infrastructure.Data.Seedwork.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic, Version=1.1.14.15853, Culture=neutral, PublicKeyToken=b72be0322d1b32a8, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.Library.1.1.14\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\201501280412531_AddUserId.cs" />
+    <Compile Include="Migrations\201501280412531_AddUserId.Designer.cs">
+      <DependentUpon>201501280412531_AddUserId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502162128011_AddExternalUserIdColumn.cs" />
+    <Compile Include="Migrations\201502162128011_AddExternalUserIdColumn.Designer.cs">
+      <DependentUpon>201502162128011_AddExternalUserIdColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502171731573_OauthTokenEncryptedSize.cs" />
+    <Compile Include="Migrations\201502171731573_OauthTokenEncryptedSize.Designer.cs">
+      <DependentUpon>201502171731573_OauthTokenEncryptedSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502180434096_AddProviderName.cs" />
+    <Compile Include="Migrations\201502180434096_AddProviderName.Designer.cs">
+      <DependentUpon>201502180434096_AddProviderName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502180853189_AddFoursquare.cs" />
+    <Compile Include="Migrations\201502180853189_AddFoursquare.Designer.cs">
+      <DependentUpon>201502180853189_AddFoursquare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502201818561_UserMessageOperation.cs" />
+    <Compile Include="Migrations\201502201818561_UserMessageOperation.Designer.cs">
+      <DependentUpon>201502201818561_UserMessageOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502202023449_QueryFilters.cs" />
+    <Compile Include="Migrations\201502202023449_QueryFilters.Designer.cs">
+      <DependentUpon>201502202023449_QueryFilters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502202245181_RenameTables.cs" />
+    <Compile Include="Migrations\201502202245181_RenameTables.Designer.cs">
+      <DependentUpon>201502202245181_RenameTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502210143353_StreamFilters.cs" />
+    <Compile Include="Migrations\201502210143353_StreamFilters.Designer.cs">
+      <DependentUpon>201502210143353_StreamFilters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502210224262_Sizecolumns.cs" />
+    <Compile Include="Migrations\201502210224262_Sizecolumns.Designer.cs">
+      <DependentUpon>201502210224262_Sizecolumns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502230011294_DisableCascadeDeletes.cs" />
+    <Compile Include="Migrations\201502230011294_DisableCascadeDeletes.Designer.cs">
+      <DependentUpon>201502230011294_DisableCascadeDeletes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201502280708132_AddStreamingEvents.cs" />
+    <Compile Include="Migrations\201502280708132_AddStreamingEvents.Designer.cs">
+      <DependentUpon>201502280708132_AddStreamingEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503020007246_UpdateStreamingEvents.cs" />
+    <Compile Include="Migrations\201503020007246_UpdateStreamingEvents.Designer.cs">
+      <DependentUpon>201503020007246_UpdateStreamingEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503030409461_DataSeed.cs" />
+    <Compile Include="Migrations\201503030409461_DataSeed.Designer.cs">
+      <DependentUpon>201503030409461_DataSeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611151953215_AddAddress.cs" />
+    <Compile Include="Migrations\201611151953215_AddAddress.Designer.cs">
+      <DependentUpon>201611151953215_AddAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611160955001_UpdatedAddress.cs" />
+    <Compile Include="Migrations\201611160955001_UpdatedAddress.Designer.cs">
+      <DependentUpon>201611160955001_UpdatedAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161208201_UpdatedStateSize.cs" />
+    <Compile Include="Migrations\201611161208201_UpdatedStateSize.Designer.cs">
+      <DependentUpon>201611161208201_UpdatedStateSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191258078_AddAddressTypes.cs" />
+    <Compile Include="Migrations\201611191258078_AddAddressTypes.Designer.cs">
+      <DependentUpon>201611191258078_AddAddressTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191801585_AddAddressTypes1.cs" />
+    <Compile Include="Migrations\201611191801585_AddAddressTypes1.Designer.cs">
+      <DependentUpon>201611191801585_AddAddressTypes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191830252_RemoveAddressType.cs" />
+    <Compile Include="Migrations\201611191830252_RemoveAddressType.Designer.cs">
+      <DependentUpon>201611191830252_RemoveAddressType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191835397_AddAddressTypes3.cs" />
+    <Compile Include="Migrations\201611191835397_AddAddressTypes3.Designer.cs">
+      <DependentUpon>201611191835397_AddAddressTypes3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191838355_RemovedAddressType.cs" />
+    <Compile Include="Migrations\201611191838355_RemovedAddressType.Designer.cs">
+      <DependentUpon>201611191838355_RemovedAddressType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191847398_AddAddressType.cs" />
+    <Compile Include="Migrations\201611191847398_AddAddressType.Designer.cs">
+      <DependentUpon>201611191847398_AddAddressType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191903304_RemoveAddrType.cs" />
+    <Compile Include="Migrations\201611191903304_RemoveAddrType.Designer.cs">
+      <DependentUpon>201611191903304_RemoveAddrType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611191916571_AddAddrType.cs" />
+    <Compile Include="Migrations\201611191916571_AddAddrType.Designer.cs">
+      <DependentUpon>201611191916571_AddAddrType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611201839461_AddEvents.cs" />
+    <Compile Include="Migrations\201611201839461_AddEvents.Designer.cs">
+      <DependentUpon>201611201839461_AddEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611210658281_DeleteEventFlag.cs" />
+    <Compile Include="Migrations\201611210658281_DeleteEventFlag.Designer.cs">
+      <DependentUpon>201611210658281_DeleteEventFlag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612201620354_AddRepeatEvent.cs" />
+    <Compile Include="Migrations\201612201620354_AddRepeatEvent.Designer.cs">
+      <DependentUpon>201612201620354_AddRepeatEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707290008307_AddPlaceNameToAddress.cs" />
+    <Compile Include="Migrations\201707290008307_AddPlaceNameToAddress.Designer.cs">
+      <DependentUpon>201707290008307_AddPlaceNameToAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902161822338_AddRecurrence.cs" />
+    <Compile Include="Migrations\201902161822338_AddRecurrence.Designer.cs">
+      <DependentUpon>201902161822338_AddRecurrence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocialModule\Repositories\AddressRepository.cs" />
+    <Compile Include="SocialModule\Repositories\EventRepository.cs" />
+    <Compile Include="SocialModule\Repositories\MessageOperationRepository.cs" />
+    <Compile Include="SocialModule\Repositories\MessageRepository.cs" />
+    <Compile Include="SocialModule\Repositories\SentMessageRepository.cs" />
+    <Compile Include="SocialModule\Repositories\StreamedTweetRepository.cs" />
+    <Compile Include="SocialModule\Repositories\StreamFilterRepository.cs" />
+    <Compile Include="SocialModule\Repositories\StreamingEventRepository.cs" />
+    <Compile Include="SocialModule\Repositories\UserProfileRepository.cs" />
+    <Compile Include="SocialModule\Repositories\UserRepository.cs" />
+    <Compile Include="UnitOfWork\Mapping\AddressConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\BlockedUserConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\MessageConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\StreamFilterConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\StreamedTweetConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\StreamingEventConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\UserConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\UserLoginConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\UserProfileConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\SentMessageConfiguration.cs" />
+    <Compile Include="UnitOfWork\Mapping\MessageOperationConfiguration.cs" />
+    <Compile Include="UnitOfWork\SocialMediaUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\SocialMediaUnitOfWorkMySql.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201501280412531_AddUserId.resx">
+      <DependentUpon>201501280412531_AddUserId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502162128011_AddExternalUserIdColumn.resx">
+      <DependentUpon>201502162128011_AddExternalUserIdColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502171731573_OauthTokenEncryptedSize.resx">
+      <DependentUpon>201502171731573_OauthTokenEncryptedSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502180434096_AddProviderName.resx">
+      <DependentUpon>201502180434096_AddProviderName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502180853189_AddFoursquare.resx">
+      <DependentUpon>201502180853189_AddFoursquare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502201818561_UserMessageOperation.resx">
+      <DependentUpon>201502201818561_UserMessageOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502202023449_QueryFilters.resx">
+      <DependentUpon>201502202023449_QueryFilters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502202245181_RenameTables.resx">
+      <DependentUpon>201502202245181_RenameTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502210143353_StreamFilters.resx">
+      <DependentUpon>201502210143353_StreamFilters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502210224262_Sizecolumns.resx">
+      <DependentUpon>201502210224262_Sizecolumns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502230011294_DisableCascadeDeletes.resx">
+      <DependentUpon>201502230011294_DisableCascadeDeletes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201502280708132_AddStreamingEvents.resx">
+      <DependentUpon>201502280708132_AddStreamingEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503020007246_UpdateStreamingEvents.resx">
+      <DependentUpon>201503020007246_UpdateStreamingEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503030409461_DataSeed.resx">
+      <DependentUpon>201503030409461_DataSeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611151953215_AddAddress.resx">
+      <DependentUpon>201611151953215_AddAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611160955001_UpdatedAddress.resx">
+      <DependentUpon>201611160955001_UpdatedAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161208201_UpdatedStateSize.resx">
+      <DependentUpon>201611161208201_UpdatedStateSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191258078_AddAddressTypes.resx">
+      <DependentUpon>201611191258078_AddAddressTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191801585_AddAddressTypes1.resx">
+      <DependentUpon>201611191801585_AddAddressTypes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191830252_RemoveAddressType.resx">
+      <DependentUpon>201611191830252_RemoveAddressType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191835397_AddAddressTypes3.resx">
+      <DependentUpon>201611191835397_AddAddressTypes3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191838355_RemovedAddressType.resx">
+      <DependentUpon>201611191838355_RemovedAddressType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191847398_AddAddressType.resx">
+      <DependentUpon>201611191847398_AddAddressType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191903304_RemoveAddrType.resx">
+      <DependentUpon>201611191903304_RemoveAddrType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191916571_AddAddrType.resx">
+      <DependentUpon>201611191916571_AddAddrType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611201839461_AddEvents.resx">
+      <DependentUpon>201611201839461_AddEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611210658281_DeleteEventFlag.resx">
+      <DependentUpon>201611210658281_DeleteEventFlag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612201620354_AddRepeatEvent.resx">
+      <DependentUpon>201612201620354_AddRepeatEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707290008307_AddPlaceNameToAddress.resx">
+      <DependentUpon>201707290008307_AddPlaceNameToAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902161822338_AddRecurrence.resx">
+      <DependentUpon>201902161822338_AddRecurrence.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="swaksoft.com/" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Dev\\Social_Media\\SocialMedia\.Host\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Dev\\Social_Media\\SocialMedia\.Host\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SocialMediaDataSource-Web.config Connection String" description="" value="Data Source=mysql502.discountasp.net; port=3306; Initial Catalog=MYSQL5_948078_swaksoft; uid=mdarlea; pwd=demo2015;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Dev\\Social_Media\\SocialMedia\.Host\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SocialMediaDataSource']/@connectionString" />
+  </parameter>
+  <parameter name="Swaksoft.Infrastructure.Crosscutting.Authorization.SocialMedia.EntityFramework.ApplicationUserDbContext-Web.config Connection String" description="" value="Swaksoft.Infrastructure.Crosscutting.Authorization.SocialMedia.EntityFramework.ApplicationUserDbContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Dev\\Social_Media\\SocialMedia\.Host\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Swaksoft.Infrastructure.Crosscutting.Authorization.SocialMedia.EntityFramework.ApplicationUserDbContext']/@connectionString" />
+  </parameter>
+</parameters>
